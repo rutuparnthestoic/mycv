@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Your Information
+    </title>
+</head>
+<body>
+    <h2>Enter your details : </h2>
+    <!-- Action specifies what submit button will do in a form, here we have used mailto, which will open a email app and enter the basic details-->
+    <form action="mailto:kakaderithvikk@gmail.com" method="post" enctype="text/plain"> <!-- Method suggest what actually it will do, here it will retrieve the info given and put it into the body of email in the format text, as mentioned in enctype.-->
+        <lable>Your Name : </lable>
+        <input type="text" name="Name"><br>
+        <lable>Birthdate : </lable>
+        <input type="date"><br>
+        <lable>Your Email : </lable>
+        <input type="email" name="Email"><br>
+        <lable>Do you want to recieve daily emails from me?</lable>
+        <input type="checkbox"><br>
+        <lable>Your message : </lable>
+        <textarea name="Message" rows="10" cols="40"></textarea>
+        <input type="submit">
+    </form>
+</body>
